@@ -1,0 +1,39 @@
+@media screen and (max-width:600px){
+    body {
+        -webkit-text-size-adjust: none;
+         background: rgb(117, 233, 50) url(../media/fondo_iphone.jpg) no-repeat center 0; 
+         padding: 20px 5px 5px 5px;
+          
+    }
+    h2 {
+     color: rgb(245, 64, 41); 
+     text-shadow: 0 0 5px rgb(0, 0, 0);
+    }
+    h3 {
+        color: rgb(75, 182, 224); 
+        text-shadow: 0 0 5px rgb(0, 0, 0);
+       }
+    p {
+     font: normal 1em/1.25em "helvetia neue", Helvetia, Arial, Sans-serif;
+     color: rgb(255, 255, 255);
+    }
+    #galeria .col-lg-2 {
+        margin: 0 !important;
+        padding: 25px;
+        }
+        
+        #galeria img {
+            width: 150%;
+            height: 150px;
+        }
+        #galeria img:hover {
+        border:4px solid #f7f7f7;
+        }
+    
+    .container img {
+    width: 20%;
+    height: 50px;
+    }
+    }
+
+    
