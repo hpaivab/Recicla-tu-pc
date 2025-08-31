@@ -1,9 +1,10 @@
-@media screen and (max-width:600px){
+@media screen and (max-width:480px){
 
-.formulario-google iframe {
-  width: 40%;
-  height: 500px;
+  .form-card {
+    padding: 20px;  /* menos padding para móviles */
+  }
 }
+
 
     body {
         -webkit-text-size-adjust: none;
