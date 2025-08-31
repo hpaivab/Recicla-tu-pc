@@ -1,4 +1,25 @@
 @media screen and (max-width:600px){
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+iframe {
+  border: none;
+  width: 95%;   /* casi todo el ancho de la pantalla */
+  height: 600px; /* más bajo que en PC */
+}
+
     body {
         -webkit-text-size-adjust: none;
          background: rgb(117, 233, 50) url(../media/fondo_iphone.jpg) no-repeat center 0; 
