@@ -1,11 +1,10 @@
 @media screen and (max-width:480px){
 
-  .form-card {
-    padding: 20px;  /* menos padding para móviles */
-  }
+  
+.formulario-google iframe {
+  width: 95%;
+  height: 600px;
 }
-
-
     body {
         -webkit-text-size-adjust: none;
          background: rgb(117, 233, 50) url(../media/fondo_iphone.jpg) no-repeat center 0; 
